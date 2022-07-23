@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: flight-service-discovery
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
